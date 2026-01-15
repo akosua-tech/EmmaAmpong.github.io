@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login EduPortal Ghana - Free Educational Resources</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="login style.css">
+    
+</head>
+<body>
+
+    <div class="login-container">
+
+        <h1>EduPortal Ghana</h1>
+        <p class="subtitle">Student & Teacher Login</p>
+
+        <!-- ROLE SELECTION -->
+        <div class="role-select">
+            <button class="active" onclick="selectRole('student')">Student</button>
+            <button onclick="selectRole('teacher')">Teacher</button>
+        </div>
+
+        <!-- LOGIN FORM -->
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="password" id="password" placeholder="Password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p id="message"></p>
+
+        <p class="note">
+            * This is a simulated login (front-end only).
+        </p>
+
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="login.js"></script>
+</body>
+</html>
