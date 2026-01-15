@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    min-width: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(images/pexels-pixabay-301920.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGIN BOX */
+.login-container {
+    background: transparent;
+    padding: 40px;
+    width: 320px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.login-container h1 {
+    margin-bottom: 5px;
+    color: #0a3d62;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* ROLE BUTTONS */
+.role-select {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.role-select button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #ddd;
+    font-weight: bold;
+}
+
+.role-select button.active {
+    background: #0a3d62;
+    color: white;
+}
+
+/* FORM */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #0a3d62;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background: #062f4f;
+}
+
+/* MESSAGE */
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.note {
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+}
